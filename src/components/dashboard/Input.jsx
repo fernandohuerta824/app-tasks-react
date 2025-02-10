@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const Input = ({ ref, label, textArea, ...props }) => {
     const htmlFor = label.toLowerCase()
-    const inputStyles = 'w-full bg-gray-200 p-2 border-b-2 border-b-transparent focus:outline-0 focus:border-b-2 focus:border-b-yellow-950 font-medium text-stone-800 text-lg'
+    const inputStyles = 'w-full bg-stone-300 p-2 border-b-2 border-b-stone-400 focus:outline-0 focus:border-b-2 focus:border-b-stone-950 font-medium text-stone-800 text-lg rounded-md'
 
     return (
         <div className='flex flex-col w-full gap-1'>
